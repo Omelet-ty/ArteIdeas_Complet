@@ -1,0 +1,39 @@
+# WordPress
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+composer.lock
+
+# Logs
+*.log
+webhook_log.txt
+*.txt
+
+# API Keys y configuración sensible
+# Nota: Las API keys están en arte-ideas.php pero deberían estar en variables de entorno
+
+# Archivos temporales
+*.tmp
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (si se usa en el futuro)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de WordPress
+.htaccess
+wp-config.php
+
+# Archivos de subida
+wp-content/uploads/ai_integracion/
+
